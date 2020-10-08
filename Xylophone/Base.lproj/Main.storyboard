@@ -26,6 +26,9 @@
                                         <state key="normal" title="C">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JrM-yd-PKB"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0X7-v8-TtB">
                                         <rect key="frame" x="15" y="116.5" width="380" height="111.5"/>
@@ -107,7 +110,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2112" y="-514"/>
+            <point key="canvasLocation" x="-2614" y="-749"/>
         </scene>
     </scenes>
     <resources>
